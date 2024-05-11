@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    background-image: url(img/fondo_formulario3.jpg);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 80px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Centra el contenido de texto */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+/* Ajustes para el logo */
+.logo-container {
+    text-align: center; /* Para centrar la imagen */
+    position: absolute;
+    top: 100px; /* Ajusta la posición vertical del logo según sea necesario */
+    left: 50%; /* Centra el logo horizontalmente */
+    transform: translateX(-50%); /* Ajusta la posición horizontal en relación con el ancho del contenedor */
+}
+
+.logo-container img {
+    width: 100px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    border-radius: 8px;
+}
+
+.mensaje-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%; /* Ajusta el ancho al 100% del contenedor principal (login) */
+    text-align: center; /* Centra el contenido de texto */
+}
+.error {
+    color: red;
+    border: 1px solid red; /* Agrega un borde rojo alrededor del contenedor */
+    padding: 10px; /* Añade un espacio interno para que el texto no esté pegado al borde */
+    border-radius: 4px; /* Añade esquinas redondeadas al borde */
+    background-color: #ffe6e6; /* Cambia el color de fondo para hacerlo más visible */
+    margin-top: 15px; /* Ajusta el espacio superior para separar el mensaje del resto del contenido */
+}
+
+/* Ajustes para el formulario */
+.login {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Permite posicionar elementos hijos de manera absoluta */
+    margin-top: 80px; /* Ajusta la posición vertical del formulario en relación con el logo */
+    width: 300px; /* Ajusta el ancho del formulario según sea necesario */
+    margin-left: auto;
+    margin-right: auto;
+}
